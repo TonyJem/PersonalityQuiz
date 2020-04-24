@@ -14,7 +14,7 @@
 		3A9FA36A2452995B00524B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9FA3692452995B00524B0E /* Assets.xcassets */; };
 		3A9FA36D2452995B00524B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9FA36B2452995B00524B0E /* LaunchScreen.storyboard */; };
 		3A9FA37524529CF900524B0E /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FA37424529CF900524B0E /* MiddleViewController.swift */; };
-		3A9FA37724529D1300524B0E /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FA37624529D1300524B0E /* LastViewController.swift */; };
+		3A9FA37724529D1300524B0E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FA37624529D1300524B0E /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		3A9FA36C2452995B00524B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9FA36E2452995B00524B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A9FA37424529CF900524B0E /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
-		3A9FA37624529D1300524B0E /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
+		3A9FA37624529D1300524B0E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				3A9FA3622452995800524B0E /* SceneDelegate.swift */,
 				3A9FA3642452995800524B0E /* IntroductionViewController.swift */,
 				3A9FA37424529CF900524B0E /* MiddleViewController.swift */,
-				3A9FA37624529D1300524B0E /* LastViewController.swift */,
+				3A9FA37624529D1300524B0E /* ResultsViewController.swift */,
 				3A9FA3662452995800524B0E /* Main.storyboard */,
 				3A9FA3692452995B00524B0E /* Assets.xcassets */,
 				3A9FA36B2452995B00524B0E /* LaunchScreen.storyboard */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9FA3652452995800524B0E /* IntroductionViewController.swift in Sources */,
-				3A9FA37724529D1300524B0E /* LastViewController.swift in Sources */,
+				3A9FA37724529D1300524B0E /* ResultsViewController.swift in Sources */,
 				3A9FA3612452995800524B0E /* AppDelegate.swift in Sources */,
 				3A9FA3632452995800524B0E /* SceneDelegate.swift in Sources */,
 				3A9FA37524529CF900524B0E /* MiddleViewController.swift in Sources */,
