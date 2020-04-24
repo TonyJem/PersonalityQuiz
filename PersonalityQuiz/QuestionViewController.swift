@@ -12,6 +12,7 @@ class QuestionViewController: UIViewController {
     
     // MARK: Properties:
     var questionIndex = 0
+    var answersChosen: [Answer] = []
     
     var questions: [Question] = [
         Question(text:"Which food do you like the most?",
