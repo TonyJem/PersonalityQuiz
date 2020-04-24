@@ -28,7 +28,7 @@
                                         <rect key="frame" x="0.0" y="88.5" width="318.5" height="30"/>
                                         <state key="normal" title="Begin Personality Quiz"/>
                                         <connections>
-                                            <segue destination="Pbi-eP-JmJ" kind="show" id="JT7-j3-Hzi"/>
+                                            <segue destination="ok1-rQ-WN3" kind="show" id="JT7-j3-Hzi"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYG-zz-bxe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="997" y="138"/>
+            <point key="canvasLocation" x="1935.2" y="137.18140929535232"/>
         </scene>
         <!--Last View Controller-->
         <scene sceneID="rQx-Hi-qQB">
@@ -111,7 +111,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9K-uZ-qeO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1843" y="138"/>
+            <point key="canvasLocation" x="2781.5999999999999" y="137.18140929535232"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2NX-Cb-Qcg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ok1-rQ-WN3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="h2v-4v-BUa"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="42U-B8-mwb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Pbi-eP-JmJ" kind="relationship" relationship="rootViewController" id="q9Y-IJ-KsC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0DJ-jM-Akf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>
