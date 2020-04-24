@@ -121,5 +121,7 @@ class QuestionViewController: UIViewController {
     
     // MARK: Actions:
     
+    @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
+    }
     
 }
