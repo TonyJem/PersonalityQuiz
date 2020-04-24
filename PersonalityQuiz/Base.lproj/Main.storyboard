@@ -27,6 +27,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l78-Mm-NLC">
                                         <rect key="frame" x="0.0" y="88.5" width="318.5" height="30"/>
                                         <state key="normal" title="Begin Personality Quiz"/>
+                                        <connections>
+                                            <segue destination="Pbi-eP-JmJ" kind="show" id="JT7-j3-Hzi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -80,11 +83,12 @@
             <objects>
                 <viewController id="Pbi-eP-JmJ" customClass="MiddleViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CfD-EM-Kef">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RNm-Lc-TF8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wM6-85-jr3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYG-zz-bxe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
