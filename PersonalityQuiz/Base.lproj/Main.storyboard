@@ -257,6 +257,10 @@
                         <outlet property="multiLabel2" destination="PJg-Tv-Xy8" id="uu9-ye-vXc"/>
                         <outlet property="multiLabel3" destination="zbj-Ik-RuK" id="wfu-Im-Dda"/>
                         <outlet property="multiLabel4" destination="gyV-Cn-eCv" id="MIS-w4-93q"/>
+                        <outlet property="multiSwitch1" destination="Jct-4r-cRw" id="MOV-GT-eGO"/>
+                        <outlet property="multiSwitch2" destination="yRE-4F-lCy" id="Ls7-7V-aKS"/>
+                        <outlet property="multiSwitch3" destination="WGj-Mz-fl3" id="gDB-zt-cLI"/>
+                        <outlet property="multiSwitch4" destination="Ojc-f9-Wlu" id="fap-pe-mHk"/>
                         <outlet property="multipleStackView" destination="nZ6-ib-T8e" id="hgl-Fo-ww4"/>
                         <outlet property="questionLabel" destination="2QG-G5-SNt" id="lej-wK-at2"/>
                         <outlet property="questionProgressView" destination="4xc-SL-ggA" id="YvF-W0-mbt"/>

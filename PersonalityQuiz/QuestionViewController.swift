@@ -115,6 +115,11 @@ class QuestionViewController: UIViewController {
     @IBOutlet var multiLabel2: UILabel!
     @IBOutlet var multiLabel3: UILabel!
     @IBOutlet var multiLabel4: UILabel!
+    @IBOutlet var multiSwitch1: UISwitch!
+    @IBOutlet var multiSwitch2: UISwitch!
+    @IBOutlet var multiSwitch3: UISwitch!
+    @IBOutlet var multiSwitch4: UISwitch!
+    
     
     @IBOutlet var rangedStackView: UIStackView!
     @IBOutlet var rangedLabel1: UILabel!
