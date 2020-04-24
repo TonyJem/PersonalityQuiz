@@ -55,6 +55,9 @@ class QuestionViewController: UIViewController {
     
     // MARK: Outlets:
     
+    @IBOutlet var singleStackView: UIStackView!
+    @IBOutlet var multipleStackView: UIStackView!
+    @IBOutlet var rangedStackView: UIStackView!
     
     // MARK: Actions:
     
