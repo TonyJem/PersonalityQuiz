@@ -89,6 +89,9 @@
                         <viewLayoutGuide key="safeArea" id="RNm-Lc-TF8"/>
                     </view>
                     <navigationItem key="navigationItem" id="wM6-85-jr3"/>
+                    <connections>
+                        <segue destination="y3m-xc-KBp" kind="show" identifier="ResultsSegue" id="GYh-ZM-Qg5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYG-zz-bxe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,11 +102,12 @@
             <objects>
                 <viewController id="y3m-xc-KBp" customClass="LastViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7tD-aE-5G4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="UVS-Qi-PWb"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eID-1M-fNN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9K-uZ-qeO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
