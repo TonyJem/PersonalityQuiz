@@ -11,6 +11,7 @@ import UIKit
 class QuestionViewController: UIViewController {
     
     // MARK: Properties:
+    var questionIndex = 0
     
     var questions: [Question] = [
         Question(text:"Which food do you like the most?",
