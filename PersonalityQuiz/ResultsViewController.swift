@@ -10,6 +10,7 @@ import UIKit
 
 class ResultsViewController: UIViewController {
     // MARK: Properties:
+    var responses: [Answer]!
     
     // MARK: Start Here:
     override func viewDidLoad() {
