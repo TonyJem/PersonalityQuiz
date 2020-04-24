@@ -97,6 +97,10 @@ class QuestionViewController: UIViewController {
         rangedLabel2.text = answers.last?.text
     }
     
+    func nextQuestion(){
+        
+    }
+    
     // MARK: Outlets:
     @IBOutlet var questionLabel: UILabel!
     
@@ -136,5 +140,6 @@ class QuestionViewController: UIViewController {
         default:
             break
         }
+        nextQuestion()
     }
 }
