@@ -238,8 +238,20 @@
                     </view>
                     <navigationItem key="navigationItem" id="wM6-85-jr3"/>
                     <connections>
+                        <outlet property="multiLabel1" destination="4jj-Yu-Lhf" id="FSd-O6-PsD"/>
+                        <outlet property="multiLabel2" destination="PJg-Tv-Xy8" id="uu9-ye-vXc"/>
+                        <outlet property="multiLabel3" destination="zbj-Ik-RuK" id="wfu-Im-Dda"/>
+                        <outlet property="multiLabel4" destination="gyV-Cn-eCv" id="MIS-w4-93q"/>
                         <outlet property="multipleStackView" destination="nZ6-ib-T8e" id="hgl-Fo-ww4"/>
+                        <outlet property="questionLabel" destination="2QG-G5-SNt" id="lej-wK-at2"/>
+                        <outlet property="questionProgressView" destination="4xc-SL-ggA" id="YvF-W0-mbt"/>
+                        <outlet property="rangedLabel1" destination="qHS-Kk-j3f" id="wZo-j3-5GJ"/>
+                        <outlet property="rangedLabel2" destination="VB0-SS-FD8" id="IV4-hf-asr"/>
                         <outlet property="rangedStackView" destination="YaP-cY-CVj" id="Dhe-fy-VU7"/>
+                        <outlet property="singleButton1" destination="tIM-1A-kqm" id="d4s-Qs-wLx"/>
+                        <outlet property="singleButton2" destination="mKf-7C-Zw5" id="U2C-AH-nts"/>
+                        <outlet property="singleButton3" destination="ZDQ-T8-O1w" id="JRY-5O-O9z"/>
+                        <outlet property="singleButton4" destination="qch-VY-s7v" id="VUD-3O-cTD"/>
                         <outlet property="singleStackView" destination="nct-oP-wVi" id="a5O-Gu-cJ5"/>
                         <segue destination="y3m-xc-KBp" kind="show" identifier="ResultsSegue" id="GYh-ZM-Qg5"/>
                     </connections>

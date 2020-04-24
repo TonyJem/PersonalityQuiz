@@ -71,9 +71,26 @@ class QuestionViewController: UIViewController {
     }
     
     // MARK: Outlets:
+    @IBOutlet var questionLabel: UILabel!
+    
     @IBOutlet var singleStackView: UIStackView!
+    @IBOutlet var singleButton1: UIButton!
+    @IBOutlet var singleButton2: UIButton!
+    @IBOutlet var singleButton3: UIButton!
+    @IBOutlet var singleButton4: UIButton!
+    
     @IBOutlet var multipleStackView: UIStackView!
+    @IBOutlet var multiLabel1: UILabel!
+    @IBOutlet var multiLabel2: UILabel!
+    @IBOutlet var multiLabel3: UILabel!
+    @IBOutlet var multiLabel4: UILabel!
+    
     @IBOutlet var rangedStackView: UIStackView!
+    @IBOutlet var rangedLabel1: UILabel!
+    @IBOutlet var rangedLabel2: UILabel!
+    
+    @IBOutlet var questionProgressView: UIProgressView!
+    
     
     // MARK: Actions:
     
