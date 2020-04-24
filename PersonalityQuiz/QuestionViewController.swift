@@ -142,4 +142,7 @@ class QuestionViewController: UIViewController {
         }
         nextQuestion()
     }
+    
+    @IBAction func multipleAnswerButtonPressed() {
+    }
 }
