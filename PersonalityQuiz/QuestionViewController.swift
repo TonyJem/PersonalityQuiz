@@ -9,14 +9,26 @@
 import UIKit
 
 class QuestionViewController: UIViewController {
-
+    
+// MARK: Properties:
+    
+    
+// MARK: Start Here;:
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+// MARK: Methods:
+    
+    
+// MARK: Outlets:
+    
+    
+// MARK: Actions:
+    
+    
     /*
     // MARK: - Navigation
 
