@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="138"/>
         </scene>
-        <!--Middle View Controller-->
+        <!--Question View Controller-->
         <scene sceneID="Eac-sH-du7">
             <objects>
-                <viewController id="Pbi-eP-JmJ" customClass="MiddleViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pbi-eP-JmJ" customClass="QuestionViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CfD-EM-Kef">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
