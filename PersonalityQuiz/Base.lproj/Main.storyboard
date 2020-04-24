@@ -218,6 +218,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8d-XG-8y8">
                                         <rect key="frame" x="0.0" y="90.5" width="335" height="30"/>
                                         <state key="normal" title="Submit Answer"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed" destination="Pbi-eP-JmJ" eventType="touchUpInside" id="2Aq-dN-W5u"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
