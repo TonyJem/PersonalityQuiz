@@ -124,6 +124,8 @@ class QuestionViewController: UIViewController {
     @IBOutlet var rangedStackView: UIStackView!
     @IBOutlet var rangedLabel1: UILabel!
     @IBOutlet var rangedLabel2: UILabel!
+    @IBOutlet var rangedSlider: UISlider!
+    
     
     @IBOutlet var questionProgressView: UIProgressView!
     
