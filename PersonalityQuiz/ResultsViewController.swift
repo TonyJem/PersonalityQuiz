@@ -35,6 +35,10 @@ class ResultsViewController: UIViewController {
             
             frecuencyOfAnswers[response] = newCount
         }
+        let frequentAnswersSorted = frecuencyOfAnswers.sorted(by:{(pair1, pair2) -> Bool in
+            return pair1.value > pair2.value
+        })
+        let mostCommonAnswer = frequentAnswersSorted.first!.key
     }
     
     // MARK: Outlets:
