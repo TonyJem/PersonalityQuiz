@@ -318,7 +318,11 @@
                         <viewLayoutGuide key="safeArea" id="UVS-Qi-PWb"/>
                     </view>
                     <navigationItem key="navigationItem" title="Results" id="eID-1M-fNN">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="lW3-rk-W7r"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="lW3-rk-W7r">
+                            <connections>
+                                <segue destination="AvA-yA-SvV" kind="unwind" unwindAction="unwindToQuizIntoductionWithSegue:" id="WPN-n3-8Ho"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="resultAnswerLabel" destination="iCm-5f-2Dm" id="cbn-yO-8w7"/>
@@ -326,6 +330,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9K-uZ-qeO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="AvA-yA-SvV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2781.5999999999999" y="137.18140929535232"/>
         </scene>
