@@ -21,7 +21,7 @@ class ResultsViewController: UIViewController {
     
     // MARK: Methods:
     func calculatePersonalityResult() {
-        
+        var frecuencyOfAnswers: [AnimalType: Int] = [:]
     }
     
     // MARK: Outlets:
