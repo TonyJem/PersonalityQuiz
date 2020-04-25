@@ -39,6 +39,8 @@ class ResultsViewController: UIViewController {
             return pair1.value > pair2.value
         })
         let mostCommonAnswer = frequentAnswersSorted.first!.key
+        resultAnswerLabel.text = "You are a \(mostCommonAnswer.rawValue)!"
+        resultDefinitionLabel.text = mostCommonAnswer.definition
     }
     
     // MARK: Outlets:
