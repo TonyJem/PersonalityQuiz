@@ -320,6 +320,10 @@
                     <navigationItem key="navigationItem" title="Results" id="eID-1M-fNN">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="lW3-rk-W7r"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultAnswerLabel" destination="iCm-5f-2Dm" id="cbn-yO-8w7"/>
+                        <outlet property="resultDefinitionLabel" destination="cOH-db-p0K" id="g34-Os-5b4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9K-uZ-qeO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

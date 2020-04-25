@@ -42,7 +42,8 @@ class ResultsViewController: UIViewController {
     }
     
     // MARK: Outlets:
-    
+    @IBOutlet var resultAnswerLabel: UILabel!
+    @IBOutlet var resultDefinitionLabel: UILabel!
     
     // MARK: Actions:
     
