@@ -15,12 +15,14 @@ class ResultsViewController: UIViewController {
     // MARK: Start Here:
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
+        calculatePersonalityResult()
     }
     
     // MARK: Methods:
-    
+    func calculatePersonalityResult() {
+        
+    }
     
     // MARK: Outlets:
     
