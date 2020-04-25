@@ -22,6 +22,19 @@ class ResultsViewController: UIViewController {
     // MARK: Methods:
     func calculatePersonalityResult() {
         var frecuencyOfAnswers: [AnimalType: Int] = [:]
+        let responseTypes = responses.map {$0.type}
+        
+        for response in responseTypes{
+            let newCount: Int
+            
+            if let oldCount = frecuencyOfAnswers[response] {
+                newCount = oldCount + 1
+            } else {
+                newCount = 1
+            }
+            
+            frecuencyOfAnswers[response] = newCount
+        }
     }
     
     // MARK: Outlets:
