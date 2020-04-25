@@ -51,6 +51,13 @@ class QuestionViewController: UIViewController {
         updateUI()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ResultsSegue"{
+            let resultsViewController = segue.destination as! ResultsViewController
+            resultsViewController.responses = answersChosen
+        }
+    }
+    
     // MARK: Methods:
     func updateUI(){
         singleStackView.isHidden = true
