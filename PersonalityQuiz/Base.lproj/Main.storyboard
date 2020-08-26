@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -63,6 +63,8 @@
                             <constraint firstItem="GHB-Rd-Uql" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="0cV-sq-HLh"/>
                             <constraint firstItem="uyH-Wp-LnG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3d4-zU-910"/>
                             <constraint firstItem="NJB-JZ-qHo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="AuK-Lc-Mzm"/>
+                            <constraint firstItem="GHB-Rd-Uql" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ye8-dD-xYo" secondAttribute="trailing" constant="20" id="FKK-Zj-Nbn"/>
+                            <constraint firstItem="uyH-Wp-LnG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NJB-JZ-qHo" secondAttribute="trailing" constant="20" id="LCD-78-xTf"/>
                             <constraint firstItem="Ye8-dD-xYo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="MnU-kw-31x"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GHB-Rd-Uql" secondAttribute="trailing" constant="20" id="Ook-Bx-1bd"/>
                             <constraint firstItem="NJB-JZ-qHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XUF-QK-M0L"/>
