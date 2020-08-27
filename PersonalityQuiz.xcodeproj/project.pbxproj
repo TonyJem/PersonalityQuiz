@@ -64,8 +64,8 @@
 			children = (
 				3A9FA3602452995800524B0E /* AppDelegate.swift */,
 				3A9FA3622452995800524B0E /* SceneDelegate.swift */,
-				3A9FA3662452995800524B0E /* Main.storyboard */,
 				3A5973942452CE98000F0217 /* QuestionData.swift */,
+				3A9FA3662452995800524B0E /* Main.storyboard */,
 				3A9FA3642452995800524B0E /* IntroductionViewController.swift */,
 				3A9FA37424529CF900524B0E /* QuestionViewController.swift */,
 				3A9FA37624529D1300524B0E /* ResultsViewController.swift */,
