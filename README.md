@@ -9,4 +9,4 @@ Simple iOS App - done as test task for learning purposes in 2020 May
 
 ![First_Screen](/quiz-screens_resized/quiz01_400.png)
 
-<img src="/quiz-screens_resized/quiz01_or.png" width="50%">
+<img alt="First screen" src="/quiz-screens_resized/quiz01_or.png" width="30%">
