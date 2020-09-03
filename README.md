@@ -57,13 +57,29 @@ Here above:
 <br>
 
 ## Code:
-Code is provided into 
-
-Enables developer to add his own questions
-
-create structures that hold the question data
-
+PersonalityQuiz app's project consits of standart Xcode for single view app generated files + other four mannually created _.swift_ files named: _QuestionData_, _IntroductionViewController_, _QuestionViewController_, _ResultsViewController_. 
 <img src="/quiz-screens/code-files.png" width="25%">
+
+__QuestionData.swift__
+It is like a house for model definitions, includes structures that hold the question data. This file used to define all the structures necessary for personality quiz.
+
+__IntroductionViewController.swift__
+Hold data and logic neccesary to run app and move throught app's screens. Enables developer to add his own questions
+
+__QuestionViewController.swift__
+
+__ResultsViewController.swift__
+
+
+
+
+
+
+
+
+
+
+Begin by creating a new file called QuestionData.swift to house the model definitions. You'll use this  You can create this file by selecting File > New > File (or Command-N) from the  menu bar, then selecting "Swift file."
 
 
 
