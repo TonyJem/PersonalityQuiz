@@ -63,7 +63,7 @@ Enables developer to add his own questions
 
 create structures that hold the question data
 
-<img src="/quiz-screens/code-files.png" width="50%">
+<img src="/quiz-screens/code-files.png" width="25%">
 
 
 
