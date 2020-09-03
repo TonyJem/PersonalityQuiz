@@ -26,9 +26,9 @@ Just take it easy !!! There are no correct answers to quiz questions! :smile:
 There are three view controllers used for that app:
 
 <img src="/quiz-screens/viewControllers.png" width="90%">
-
-
-
+<br>
+<br>
+<br>
 
 1. The first is an introduction screen with information about the quiz and a button to begin.
 
