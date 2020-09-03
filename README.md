@@ -2,8 +2,11 @@
 Simple iOS App, done as guided project for learning purposes in 2020 May.
 
 [Description](#Description:)
+
 [Implementation](#Implementation:)
+
 [Code](#Code:)
+
 [References](#References:)
 
 ## Description:
