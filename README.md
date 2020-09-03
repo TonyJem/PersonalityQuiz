@@ -5,7 +5,7 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 
 [Implementation](#implementation)
 
-[Code](#code)
+[About Code](#about-code)
 
 [References](#references)
 
@@ -13,7 +13,7 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
 The four possible outcomes are: dog :dog:, cat :cat:, rabbit :rabbit:, and turtle :turtle:.
 
-Just take it easy !!! There are no correct answers to quiz questions! :smile:
+Just take it easy !!! There are no correct answers to Quiz questions! :smile:
 
 #### This app accomplish three main goals:
   1. Introduce the player to the quiz.
@@ -21,6 +21,7 @@ Just take it easy !!! There are no correct answers to quiz questions! :smile:
   2. Present questions and answers.
   
   3. Display the results.
+<br>
 <br>
 <br>
   
@@ -31,7 +32,7 @@ There are three view controllers used for that app:
 <br>
 <br>
 
-1. The __first view controller__ is an introduction screen with information about the quiz and a button to begin:
+1. The __first view controller__ is an introduction screen with information about the Quiz and a button to begin:
 
 <img src="/quiz-screens/quiz01.png" width="20%">
 <br>
@@ -52,10 +53,11 @@ Here above:
 <br>   
 <br>
 
-3. The __third view controller__ tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the quiz from the first view controller:
+3. The __third view controller__ tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the Quiz from the first view controller:
 
 <img src="/quiz-screens/quiz05.png" width="20%">
 <br>   
+<br>
 <br>
 
 ## Code:
@@ -65,11 +67,12 @@ PersonalityQuiz app's project consits of standart Xcode for single view app gene
 
 __QuestionData.swift__ is like a house for model definitions, includes structures that hold the question data. This file used to define all the structures necessary for personality quiz.
 
-__IntroductionViewController.swift__ holds minimally needed logic neccesary to launch qui and move next forward throught app's screens. 
+__IntroductionViewController.swift__ holds minimally needed logic neccesary to launch Quiz and move next forward throught app's screens. 
 
 __QuestionViewController.swift__ holds main part of app functionality. Here is stored an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
 
 __ResultsViewController.swift__ receives data from previuose view controller. Also here is included logic to calculate answer frequency and dependently on those calculations presented the final outcome of the quiz.
+<br>
 <br>
 <br>
 
