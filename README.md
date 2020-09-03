@@ -61,17 +61,13 @@ PersonalityQuiz app's project consits of standart Xcode for single view app gene
 
 <img src="/quiz-screens/code-files.png" width="25%">
 
-__QuestionData.swift__
-It is like a house for model definitions, includes structures that hold the question data. This file used to define all the structures necessary for personality quiz.
+__QuestionData.swift__ is like a house for model definitions, includes structures that hold the question data. This file used to define all the structures necessary for personality quiz.
 
-__IntroductionViewController.swift__
-Holds minimally needed logic neccesary to launch qui and move next forward throught app's screens. 
+__IntroductionViewController.swift__ holds minimally needed logic neccesary to launch qui and move next forward throught app's screens. 
 
-__QuestionViewController.swift__
-Holds main part of app functionality. Here is stored an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
+__QuestionViewController.swift__ holds main part of app functionality. Here is stored an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
 
-__ResultsViewController.swift__
-Receives data from previuose view controller also includes logic to calculate answer frequency and dependently on those calculations presents the final outcome of the quiz.
+__ResultsViewController.swift__ receives data from previuose view controller. Also here is included logic to calculate answer frequency and dependently on those calculations presented the final outcome of the quiz.
 
 ## References:
 “App Development with Swift”. Apple Inc. - Education, 2019. Apple Books. pages: 403-446
