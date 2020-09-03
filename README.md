@@ -29,7 +29,7 @@ There are three view controllers used for that app:
 <br>
 <br>
 
-1. The __first view controller__ is an introduction screen with information about the quiz and a button to begin.
+1. The __first view controller__ is an introduction screen with information about the quiz and a button to begin:
 
 <img src="/quiz-screens/quiz01.png" width="20%">
 <br>
@@ -50,7 +50,7 @@ Here above:
 <br>   
 <br>
 
-3. The __third view controller__ tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the quiz from the first view controller.
+3. The __third view controller__ tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the quiz from the first view controller:
 
 <img src="/quiz-screens/quiz05.png" width="20%">
 <br>   
@@ -63,5 +63,5 @@ Enables developer to add his own questions
 
 
 ## References:
-Apple Education. “App Development with Swift”. Apple Inc. - Education, 2019. Apple Books. pages: 403-446
+“App Development with Swift”. Apple Inc. - Education, 2019. Apple Books. pages: 403-446
 https://books.apple.com/us/book/app-development-with-swift/id1465002990
