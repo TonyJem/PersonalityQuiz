@@ -27,6 +27,9 @@ There are three view controllers used for that app:
 
 <img src="/quiz-screens/viewControllers.png" width="90%">
 
+
+
+
 1. The first is an introduction screen with information about the quiz and a button to begin.
 
 <img src="/quiz-screens/quiz01.png" width="20%">
