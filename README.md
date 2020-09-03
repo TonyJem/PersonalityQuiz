@@ -9,7 +9,7 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 
 [References](#References:)
 
-## Description:
+## Description
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
 The four possible outcomes are: dog :dog:, cat :cat:, rabbit :rabbit:, and turtle :turtle:.
 
