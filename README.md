@@ -9,7 +9,7 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 
 [References](#references)
 
-## Description
+## Description:
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
 The four possible outcomes are: dog :dog:, cat :cat:, rabbit :rabbit:, and turtle :turtle:.
 
@@ -60,7 +60,7 @@ Here above:
 <br>
 <br>
 
-## Code:
+## About Code:
 PersonalityQuiz app's project consits of standart Xcode for single view app generated files + other four mannually created _.swift_ files named: _QuestionData_, _IntroductionViewController_, _QuestionViewController_, _ResultsViewController_. 
 
 <img src="/quiz-screens/code-files.png" width="25%">
