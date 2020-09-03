@@ -1,9 +1,14 @@
 # PersonalityQuiz
 Simple iOS App, done as guided project for learning purposes in 2020 May.
 
+[Description](## Description:)
+[Implementation](## Implementation:)
+[Code](## Code:)
+[References](## References:)
+
 ## Description:
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
-The four possible outcomes are: dog :dog: 🐶, cat :cat: 🐱, rabbit :rabbit: 🐰, and turtle :turtle: 🐢.
+The four possible outcomes are: dog :dog:, cat :cat:, rabbit :rabbit:, and turtle :turtle:.
 
 Just take it easy !!! There are no correct answers to quiz questions! :smile:
 
@@ -43,7 +48,7 @@ Here above:
 
 
 
-### Code:
+## Code:
 Code is devided in few parts:
 
 Enables developer to add his own questions
