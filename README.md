@@ -21,6 +21,8 @@ Just take it easy !!! There are no correct answers to quiz questions! :smile:
   2. Present questions and answers.
   
   3. Display the results.
+<br>
+<br>
   
 ## Implementation: 
 There are three view controllers used for that app:
@@ -68,6 +70,8 @@ __IntroductionViewController.swift__ holds minimally needed logic neccesary to l
 __QuestionViewController.swift__ holds main part of app functionality. Here is stored an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
 
 __ResultsViewController.swift__ receives data from previuose view controller. Also here is included logic to calculate answer frequency and dependently on those calculations presented the final outcome of the quiz.
+<br>
+<br>
 
 ## References:
 “App Development with Swift”. Apple Inc. - Education, 2019. Apple Books. pages: 403-446
