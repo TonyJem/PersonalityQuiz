@@ -25,7 +25,7 @@ There are three view controllers used for that app:
 
 <img src="/quiz-screens/quiz02.png" width="20%">  <img src="/quiz-screens/quiz03.png" width="20%"> <img src="/quiz-screens/quiz04.png" width="20%">
 
-    2.1 Question #1 is a multiple-choice question, where only one answer is valid.
+    **Question #1**: is a multiple-choice question, where only one answer is valid.
     For this question, here is used a button for each food.
    
     2.2 Question #2 question can have zero or more answers.
