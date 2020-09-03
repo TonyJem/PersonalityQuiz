@@ -3,7 +3,7 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 
 ## Description:
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
-The four possible outcomes are: dog, cat, rabbit, and turtle. There are no correct answers to quiz questions.
+The four possible outcomes are: dog🐶, cat🐱, rabbit🐰, and turtle🐢. There are no correct answers to quiz questions.
 
 #### This app accomplish three main goals:
   1. Introduce the player to the quiz.
