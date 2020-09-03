@@ -1,11 +1,11 @@
 # PersonalityQuiz
 Simple iOS App, done as guided project for learning purposes in 2020 May.
 
-[Description](##Description:)
+[Description](#description)
 
-[Implementation](#Implementation:)
+[Implementation](#implementation)
 
-[Code](#Code:)
+[Code](#code)
 
 [References](#references)
 
