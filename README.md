@@ -58,30 +58,20 @@ Here above:
 
 ## Code:
 PersonalityQuiz app's project consits of standart Xcode for single view app generated files + other four mannually created _.swift_ files named: _QuestionData_, _IntroductionViewController_, _QuestionViewController_, _ResultsViewController_. 
+
 <img src="/quiz-screens/code-files.png" width="25%">
 
 __QuestionData.swift__
 It is like a house for model definitions, includes structures that hold the question data. This file used to define all the structures necessary for personality quiz.
 
 __IntroductionViewController.swift__
-Hold data and logic neccesary to run app and move throught app's screens. Enables developer to add his own questions
+Holds minimally needed logic neccesary to launch qui and move next forward throught app's screens. 
 
 __QuestionViewController.swift__
+Holds main part of app functionality. Here is stored an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
 
 __ResultsViewController.swift__
-
-
-
-
-
-
-
-
-
-
-Begin by creating a new file called QuestionData.swift to house the model definitions. You'll use this  You can create this file by selecting File > New > File (or Command-N) from the  menu bar, then selecting "Swift file."
-
-
+Receives data from previuose view controller also includes logic to calculate answer frequency and dependently on those calculations presents the final outcome of the quiz.
 
 ## References:
 “App Development with Swift”. Apple Inc. - Education, 2019. Apple Books. pages: 403-446
