@@ -25,13 +25,15 @@ There are three view controllers used for that app:
 
 <img src="/quiz-screens/quiz02.png" width="20%"> <img src="/quiz-screens/quiz03.png" width="20%"> <img src="/quiz-screens/quiz04.png" width="20%">
 
+  - The first question is a multiple-choice question, where only one answer is valid. For this question, here is used a button for each food.
+  - The second question can have zero or more answers. Here are used switches, so players can select as many foods as they like, as well as a button to submit their choices.
+  - The third question involve a 0-to-1 scale slider for choosing answer and button to submit that answer.
+
 * The third view controller tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the quiz from the first view controller.
 
 <img src="/quiz-screens/quiz05.png" width="20%">
 
-The first question is a multiple-choice question, where only one answer is valid. For this question, here is used a button for each food.
-The second question can have zero or more answers. Here are used switches, so players can select as many foods as they like, as well as a button to submit their choices.
-The third question involve a 0-to-1 scale slider for choosing answer and button to submit that answer.
+
 
 ### Code:
 Code is devided in few parts:
