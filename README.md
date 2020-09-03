@@ -1,10 +1,10 @@
 # PersonalityQuiz
 Simple iOS App, done as guided project for learning purposes in 2020 May.
 
-[Description](## Description:)
-[Implementation](## Implementation:)
-[Code](## Code:)
-[References](## References:)
+[Description](##Description:)
+[Implementation](##Implementation:)
+[Code](##Code:)
+[References](##References:)
 
 ## Description:
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
