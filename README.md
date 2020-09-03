@@ -57,9 +57,14 @@ Here above:
 <br>
 
 ## Code:
-Code is devided in few parts:
+Code is provided into 
 
 Enables developer to add his own questions
+
+create structures that hold the question data
+
+<img src="/quiz-screens/code-files.png" width="100%">
+
 
 
 ## References:
