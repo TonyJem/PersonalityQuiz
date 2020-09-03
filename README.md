@@ -5,7 +5,7 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 Player is presented with a topic “Which animal are you?” and answer questions that align them to a particular outcome. 
 The four possible outcomes are: dog, cat, rabbit, and turtle. There are no correct answers to quiz questions.
 
-### This app accomplish three main goals:
+##### This app accomplish three main goals:
   1. Introduce the player to the quiz.
   
   2. Present questions and answers.
@@ -14,21 +14,25 @@ The four possible outcomes are: dog, cat, rabbit, and turtle. There are no corre
   
 ## Implementation: 
 There are three view controllers used for that app:
-<img src="/quiz-screens/viewControllers.png" width="20%">
+
+<img src="/quiz-screens/viewControllers.png" width="80%">
 
 * The first is an introduction screen with information about the quiz and a button to begin.
+
 <img src="/quiz-screens/quiz01.png" width="20%">
 
 * The second view controller displays a question and several answers, and manages the responses. This view controller is refreshed for each question, and depending on what kind of question, the right controls will be displayed.
+
 <img src="/quiz-screens/quiz02.png" width="20%"> <img src="/quiz-screens/quiz03.png" width="20%"> <img src="/quiz-screens/quiz04.png" width="20%">
 
 * The third view controller tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the quiz from the first view controller.
+
 <img src="/quiz-screens/quiz05.png" width="20%">
 
 ### Code:
 Code is devided in few parts:
 
-enambles developer to add
+Enables developer to add his own questions
 
 
 
