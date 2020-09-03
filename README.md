@@ -4,14 +4,14 @@ Simple iOS App, done as guided project for learning purposes in 2020 May.
 
 
 
-## References:
+### References:
 Apple e-book "App Development with Swift" Xcode 10 edition, pages: 403-446
 https://books.apple.com/us/book/app-development-with-swift/id1465002990
 
 
 
 
-## Screenshots:
+### Screenshots:
 1.	First screen:
 <img alt="First screen" src="/quiz-screens_resized/quiz01.png" width="20%">
 
