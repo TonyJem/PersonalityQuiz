@@ -57,6 +57,6 @@ Code is devided in few parts:
 Enables developer to add his own questions
 
 
-# References
+# References:
 Apple Education. “App Development with Swift”. Apple Inc. - Education, 2019. Apple Books. pages: 403-446
 https://books.apple.com/us/book/app-development-with-swift/id1465002990
