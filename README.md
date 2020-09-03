@@ -1,7 +1,7 @@
 # PersonalityQuiz
 Simple iOS App, done as guided project for learning purposes in 2020 May.
 
-[Description](#Description:)
+[Description](##Description:)
 
 [Implementation](#Implementation:)
 
