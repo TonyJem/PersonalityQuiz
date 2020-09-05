@@ -30,6 +30,7 @@ There are three view controllers used for that app:
 
 <img src="/quiz-screens/viewControllers.png" width="90%">
 <br>
+<br>
 
 1. The __first view controller__ is an introduction screen with information about the Quiz and a button to begin:
 
